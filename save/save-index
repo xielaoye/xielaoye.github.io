@@ -1,0 +1,115 @@
+<div class="content-part-container">
+            <!--~~~~~~~~~~~~~~~~~~~~~~~~~左侧图片~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <div class="picture">
+                  <img src="images/smart.jpg">
+            </div>
+
+            <!--~~~~~~~~~~~~~~~~~~~~~~~~~右侧介绍~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <div class="word-introduction">
+                  <!--~~~~~~~~~~~~~~名称角色~~~~~~~~~~~~~~-->
+                  <p class="workname">SmartRiches杀马特富翁</p>
+                  <p class="role">短篇/幽默类</p>
+                  <!--~~~~~~~~~~~~~~木德高清~~~~~~~~~~~~~~-->
+                  <a href="smartriches/0.html"><p class="click-in">点击阅读</p></a>
+                  <!--~~~~~~~~~~~~~~作品详情~~~~~~~~~~~~~~-->
+                  <pre class="notes-work">作者：姜明耀、林木宝
+发布时间：2015-8-30
+<span>版权归[木德梨坊]所有</span>
+<span>转载请符合[所有页面完整转载]的要求</span>
+</pre>
+            </div>
+            <!--~~~~~~~~~~~~~~~~~~~~~~右侧介绍~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      </div> 
+
+
+
+
+/*----------------------------------------通用内容框----------------------------------------*/
+.content-part-container{
+    border: 0px solid red;
+
+    margin-left: 110px;
+    padding-left: 60px;
+    padding-top: 40px;
+    z-index: -1;   
+    text-align: left;
+
+
+}
+
+/*---------------------------左侧图片----------------------------*/
+.picture{
+      border: 0px solid green;
+
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+
+    font-size: 0;
+ }
+
+/*---------------------------右侧介绍----------------------------*/
+.word-introduction{
+      border: 0px solid red;  
+
+    display: inline-block;
+    text-align: left;
+
+    width: 500px;
+}
+
+/*---------------名称角色-----------------*/
+.workname{
+      border: 0px solid black;
+
+    margin: 0;
+      padding: 0px 15px 6px 15px;
+      line-height: 30px;
+
+
+      font-size: 30px;
+      color: black;
+      font-weight: bold;
+}
+
+.role{
+      margin: 0;
+      padding: 0px 15px 4px 15px;
+      line-height: 22px;
+
+      font-size: 20px;
+      color: green;
+      font-weight: bold;
+}
+
+/*---------------木德高清-----------------*/
+.click-in{
+      margin: 4px 15px 4px 15px;
+      padding: 6px 15px 10px 15px;
+
+      font-size: 24px;
+      font-weight: bold;
+      display: inline-block;
+
+    color: white;
+      background-color: black;
+}
+
+
+/*---------------作品详情-----------------*/
+.notes-work{
+      border: 0px solid red;
+
+      padding: 4px 17px 0px 17px;
+
+
+      font-size: 16px;
+      line-height: 20px;
+}
+
+span{
+      font-weight: bold;
+}
+
