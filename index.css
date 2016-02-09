@@ -1,65 +1,70 @@
 
 
 /*----------------------------------------全局定义----------------------------------------*/
+body{
+	background-color: #65727f;
+}
+
 body,div{
 	margin: 0px;
 	padding: 0;
 }
 
-p,pre{
+p{
 	margin: 0;
 	padding: 0;
-
+    color: white;
 	font-family: "微软雅黑";
 }
 
-img:visited{
+a:link,a:visited,img:visited,img:hover{
+	color:#989ab3;
 	text-decoration: none;
 }
 
-img:hover{
-	text-decoration: none;
+a:hover{
+	color: #d0d2ff;
 }
 
-/*----------------------------------------左侧选项栏----------------------------------------*/
-#left-container{
-	border: 0px solid red;
-	
-	position: fixed;    
-	top: 0;    
+
+#head{
+	border:0px solid white;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #191c1f;
+}
+
+#head p,#language{
 	text-align: center;
-
-	width: 90px;
-	height: 100%;
-	
-	background:url(images/back.jpg);
+	line-height: 50px;
+	font-size:20px;
+	color:#989ab3;
 }
 
-.left-word{
-   border: 0px solid red;
+#language{
+    position: fixed;
+    right:20px;
 
-   margin: 0;
-   padding: 8px;
-   width: 50px;
+}
 
-   color: #bbbbbb;
-
-   border-radius: 50%;
-
-   text-align: center;
+#first-bar{
+	margin-top: 60px;
 }
 
 #picbar{
-	border: 0px solid red;
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 90px;
-	overflow: hidden;
-}
+	border:2px solid #191c1f;
+	width: 90%;
 
+	margin:0 auto ;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 #pic{
     width: 100%;
+    vertical-align: top;
+ 
 }
