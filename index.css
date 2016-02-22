@@ -1,9 +1,6 @@
 
 
 /*----------------------------------------全局定义----------------------------------------*/
-body{
-	background-color: #65727f;
-}
 
 body,div{
 	margin: 0px;
@@ -51,20 +48,19 @@ a:hover{
 }
 
 #first-bar{
-	margin-top: 60px;
+	margin-top: 50px;
 }
 
 #picbar{
-	border:2px solid #191c1f;
-	width: 90%;
+	border:0px solid #191c1f;
+	width: 100%;
 
 	margin:0 auto ;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #pic{
     width: 100%;
     vertical-align: top;
- 
 }
