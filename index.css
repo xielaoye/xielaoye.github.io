@@ -15,12 +15,12 @@ p{
 }
 
 a:link,a:visited,img:visited,img:hover{
-	color:#989ab3;
+	color:#d0d2ff;
 	text-decoration: none;
 }
 
 a:hover{
-	color: #d0d2ff;
+	font-weight: bold;
 }
 
 
@@ -38,7 +38,7 @@ a:hover{
 	text-align: center;
 	line-height: 50px;
 	font-size:20px;
-	color:#989ab3;
+	color:#d0d2ff;
 }
 
 #language{
@@ -64,3 +64,4 @@ a:hover{
     width: 100%;
     vertical-align: top;
 }
+

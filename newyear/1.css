@@ -18,7 +18,7 @@ a:link,a:visited,img:visited,img:hover{
 }
 
 a:hover{
-	color: #eeefff;
+	font-weight: bold;
 }
 
 
@@ -29,7 +29,7 @@ a:hover{
 	left: 0;
 	width: 100%;
 	height: 50px;
-	background-color: #9ea1b5;
+	background-color: #191c1f;
 }
 
 #head p,#index,#page{
@@ -64,5 +64,9 @@ a:hover{
     border: 0px solid red;
     vertical-align: top;
     width:100%;
+}
+
+span{
+	font-weight: bold;
 }
 
